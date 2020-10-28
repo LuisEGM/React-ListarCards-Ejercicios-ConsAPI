@@ -73,10 +73,10 @@ class FormularioEjercicio extends React.Component{
                         <input
                             type="text"
                             className="form-control"
-                            placeholder="title"
-                            name="title"
+                            placeholder="nombre"
+                            name="nombre"
                             onChange={onChange} //antes de elevar el estado qui iba "this.handleChange"
-                            value={form.title}
+                            value={form.nombre}
                         />
                     </div>
 
@@ -85,9 +85,9 @@ class FormularioEjercicio extends React.Component{
                             type="text"
                             className="form-control"
                             placeholder="descripción"
-                            name="description"
+                            name="descripcion"
                             onChange={onChange}
-                            value={form.desccripción}
+                            value={form.descripcion}
                         />
                     </div>
 
@@ -95,10 +95,10 @@ class FormularioEjercicio extends React.Component{
                         <input
                             type="text"
                             className="form-control"
-                            placeholder="img"
-                            name="img"
+                            placeholder="imagen"
+                            name="imagen"
                             onChange={onChange}
-                            value={form.img}
+                            value={form.imagen}
                         />
                     </div>
 
@@ -109,9 +109,9 @@ class FormularioEjercicio extends React.Component{
                                 type="text"
                                 className="form-control"
                                 placeholder="leftColor"
-                                name="leftColor"
+                                name="left_color"
                                 onChange={onChange}
-                                value={form.leftColor}
+                                value={form.left_color}
                             />
                         </div>
 
@@ -120,16 +120,16 @@ class FormularioEjercicio extends React.Component{
                                 type="text"
                                 className="form-control"
                                 placeholder="rightColor"
-                                name="rightColor"
+                                name="right_color"
                                 onChange={onChange}
-                                value={form.rightColor}
+                                value={form.right_color}
                             />
                         </div>
 
                     </div>
 
                     <button type="submit" className="btn btn-primary mt-3">
-                        Submit
+                        Send
                     </button>
                 
                 </form>

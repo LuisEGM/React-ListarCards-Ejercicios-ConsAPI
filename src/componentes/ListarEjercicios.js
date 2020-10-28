@@ -11,11 +11,11 @@ const ListarEjercicios = ({ejercicios}) => (
                 return(
                     <Tarjeta
                         key={ejercicio.id}
-                        title={ejercicio.title}
-                        description={ejercicio.description}
-                        img={ejercicio.img}
-                        leftColor={ejercicio.leftColor}
-                        rightColor={ejercicio.rightColor}
+                        nombre={ejercicio.nombre}
+                        descripcion={ejercicio.descripcion}
+                        imagen={ejercicio.imagen}
+                        left_color={ejercicio.left_color}
+                        right_color={ejercicio.right_color}
                     />
                 );        
             })

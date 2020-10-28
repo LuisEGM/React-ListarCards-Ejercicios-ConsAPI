@@ -8,11 +8,11 @@ class NuevoEjercicioLogica extends React.Component{
     
     state = {
         form: {
-            title: "",
-            description: "",
-            img: "",
-            leftColor: "",
-            rightColor: ""
+            nombre: "",
+            descripcion: "",
+            imagen: "",
+            left_color: "",
+            right_color: ""
         },
         error: null,
         loading: false
@@ -39,13 +39,13 @@ class NuevoEjercicioLogica extends React.Component{
             let config = {
                 method: "POST",
                 headers: {
-                    "Accept": "aplication/json",
+                    //"Accept": "aplication/json",
                     "Content-Type": "application/json"    
                 },
                 body: JSON.stringify(this.state.form)
             }
     
-            let res = await fetch("http://localhost:8000/api/exercises",config);
+            let res = await fetch("http://localhost:8080/api/v1/save",config);
             let json = await res.json();
     
             //cuando termina, desaparece
@@ -60,6 +60,7 @@ class NuevoEjercicioLogica extends React.Component{
             console.log("res => ", json);
 
         } catch (error) {
+            console.log("Entro en el catch del error");
             this.setState({
                 loading: false,
                 error
