@@ -7,7 +7,7 @@ class EjerciciosLogica extends React.Component{
     // con un fitchure de babel es posible inicializar el estado
     // sin declarar el constructor, ejemplo.
 
-    state = {
+    /*state = {
         data:[],
         loading: true,
         error: null
@@ -38,9 +38,9 @@ class EjerciciosLogica extends React.Component{
             })
         }
         
-    } 
+    }*/
 
-    /*constructor(props){
+    constructor(props){
         super(props);
         this.state = {
             data:   [{
@@ -75,7 +75,7 @@ class EjerciciosLogica extends React.Component{
                 // }
                     ]
         }
-    }*/
+    }
 
     render(){
 
