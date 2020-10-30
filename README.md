@@ -1,5 +1,11 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+### Cliente React
 
-### `Apuntes`
+Este pequeño proyecto es un CRUD que consume una API contruida con java utilizando springboot, se encarga de leer, crear, editar y eliminar targetas con información de ejercicios.
 
-Este pequeño proyecto consume una API contruida tambien con javascript, en repositorio de la API se encuentra en [https://github.com/rulpalacios/FitnessAPI](https://github.com/rulpalacios/FitnessAPI)
+## Listando ejercicios
+
+![listando](https://github.com/LuisEGM/React-ListarCards-Ejercicios-ConsAPI/blob/master/src/imagenes/screen1.PNG)
+
+## Agregando ejercicios
+
+![listando](https://github.com/LuisEGM/React-ListarCards-Ejercicios-ConsAPI/blob/master/src/imagenes/screen2.png)
