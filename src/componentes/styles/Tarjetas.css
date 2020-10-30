@@ -3,6 +3,13 @@
     border-radius: 8px;
     /* background: url('../../imagenes/circles.png') no-repeat, linear-gradient(to right, #A74CF2, #617BFB); */
     margin-bottom: 20px;
+    box-shadow: 0px 0px 5px #637AFB;
+    transition: .3s ease;
+}
+
+.card:hover{
+    transform: scale(1.02);
+    transition: .3s ease;
 }
 
 .Fitness-User-Info {
@@ -18,7 +25,7 @@
 
 .Fitness-Card-Info {
     padding-left: 0;
-    padding-right: 75px;
+    padding-right: 10px;
 }
 
 .Fitness-Card-Info h1{
@@ -27,6 +34,12 @@
 }
 
 .Fitness-Card-Info p{
-    font-size: 11px;
+    font-size: 12px;
     color: white;
+}
+
+.contenedor__imagen{
+    position: relative;
+    right: 20px;
+    top: -10px;
 }

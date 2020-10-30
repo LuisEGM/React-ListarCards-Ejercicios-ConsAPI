@@ -35,7 +35,7 @@ class Tarjeta extends React.Component{
             >
                 <div className="card-body">
                     <div className="row center">
-                        <div className="col-6">
+                        <div className="col-6 contenedor__imagen">
                             <img src={imagen || emptyImg} className="float-right" />
                         </div>   
                         <div className="col-6 Fitness-Card-Info">

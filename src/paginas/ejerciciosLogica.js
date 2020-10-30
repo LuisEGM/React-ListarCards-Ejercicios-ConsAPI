@@ -7,7 +7,7 @@ class EjerciciosLogica extends React.Component{
     // con un fitchure de babel es posible inicializar el estado
     // sin declarar el constructor, ejemplo.
 
-    /*state = {
+    state = {
         data:[],
         loading: true,
         error: null
@@ -38,9 +38,9 @@ class EjerciciosLogica extends React.Component{
             })
         }
         
-    } */
+    } 
 
-    constructor(props){
+    /*constructor(props){
         super(props);
         this.state = {
             data:   [{
@@ -64,9 +64,18 @@ class EjerciciosLogica extends React.Component{
                         "imagen": "https://firebasestorage.googleapis.com/v0/b/tutoriales-e4830.appspot.com/o/exercise03.png?alt=media&token=8e5301c0-151e-415d-bd2c-655235d9c916",
                         "left_color": "#FAD961",
                         "right_color": "#F76B1C"
-                    }]
+                    }
+                // ,{
+                //     "id": 3,
+                //     "nombre": "Strength Training",
+                //     "descripcion": "Train anytime, everywere and become",
+                //     "imagen": "https://firebasestorage.googleapis.com/v0/b/tutoriales-e4830.appspot.com/o/exercise03.png?alt=media&token=8e5301c0-151e-415d-bd2c-655235d9c916",
+                //     "left_color": "#FAD961",
+                //     "right_color": "#F76B1C"
+                // }
+                    ]
         }
-    }
+    }*/
 
     render(){
 

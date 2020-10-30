@@ -1,5 +1,5 @@
 import React from "react";
-import "./styles/AgregarEjercicio.css";
+//import "./styles/AgregarEjercicio.css";
 //import botonImg from "../imagenes/add.png";
 import { Link } from "react-router-dom";
 
