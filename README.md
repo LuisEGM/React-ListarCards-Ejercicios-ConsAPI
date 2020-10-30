@@ -1,4 +1,4 @@
-### Cliente React
+# Cliente React
 
 Este pequeño proyecto es un CRUD que consume una API contruida con java utilizando springboot, se encarga de leer, crear, editar y eliminar targetas con información de ejercicios.
 
