@@ -1,5 +1,5 @@
 import React from "react";
-import { BrowserRouter, Route, Switch } from "react-router-dom";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 import EjerciciosLogica from "../paginas/ejerciciosLogica";
 import NuevoEjercicioLogica from "../paginas/NuevoEjercicioLogica";
 import NotFount from "../paginas/404";
@@ -8,11 +8,11 @@ import NotFount from "../paginas/404";
 
 const App = () => (
     <BrowserRouter>
-        <Switch>
-            <Route exact path="/" component={EjerciciosLogica} />
-            <Route exact path="/nuevo-ejercicio" component={NuevoEjercicioLogica} />    
-            <Route component={NotFount}/>
-        </Switch>
+        <Routes>
+            <Route path="/" element={<EjerciciosLogica />} />
+            <Route path="/nuevo-ejercicio" element={<NuevoEjercicioLogica />} />    
+            <Route path="*" element={<NotFount />}/>
+        </Routes>
     </BrowserRouter>
 );
 
